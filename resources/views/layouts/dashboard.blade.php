@@ -19,7 +19,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Theme style -->
   <link rel="stylesheet" href="node_modules/admin-lte/dist/css/adminlte.min.css">
   <!-- Calendar style -->
-  <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -79,7 +79,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   Brad Diesel
                   <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
                 </h3>
-                <p class="text-sm">Call me whenever you can...</p>
+                <p class="text-sm">Amoxillin - Done</p>
                 <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
               </div>
             </div>
@@ -95,7 +95,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                   John Pierce
                   <span class="float-right text-sm text-muted"><i class="fas fa-star"></i></span>
                 </h3>
-                <p class="text-sm">I got your message bro</p>
+                <p class="text-sm"> -  </p>
                 <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 4 Hours Ago</p>
               </div>
             </div>
@@ -118,7 +118,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
             <!-- Message End -->
           </a>
           <div class="dropdown-divider"></div>
-          <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+          <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
         </div>
       </li>
       <!-- Notifications Dropdown Menu -->
@@ -259,30 +259,71 @@ scratch. This page gets rid of all links and provides the needed markup only.
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
 
-    <!-- Main content -->
-    <div class="container">
-      <div class="calendar">
-        <div class="month">
-          <i class="fas fa-angle-left prev"></i>
-          <div class="date">
-            <h1></h1>
-            <p></p>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div>
+
+            <div class="card card-primary card-outline">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+              </div>
+            </div><!-- /.card -->
           </div>
-          <i class="fas fa-angle-right next"></i>
+          <!-- /.col-md-6 -->
+          <div class="col-lg-6">
+            <div class="card">
+              <div class="card-header">
+                <h5 class="m-0">Featured</h5>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Special title treatment</h6>
+
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+
+            <div class="card card-primary card-outline">
+              <div class="card-header">
+                <h5 class="m-0">Featured</h5>
+              </div>
+              <div class="card-body">
+                <h6 class="card-title">Special title treatment</h6>
+
+                <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <!-- /.col-md-6 -->
         </div>
-        <div class="weekdays">
-          <div>Sun</div>
-          <div>Mon</div>
-          <div>Tue</div>
-          <div>Wed</div>
-          <div>Thu</div>
-          <div>Fri</div>
-          <div>Sat</div>
-        </div>
-        <div class="days"></div>
-      </div>
+        <!-- /.row -->
+      </div><!-- /.container-fluid -->
     </div>
+    <!-- /.content -->
+  </div>
+  <!-- /.content-wrapper -->
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
@@ -294,6 +335,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   </aside>
   <!-- /.control-sidebar -->
 
+</body>
   <!-- Main Footer -->
   <footer class="main-footer">
     <!-- To the right -->
@@ -307,13 +349,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <!-- ./wrapper -->
 
 <!-- REQUIRED SCRIPTS -->
-
+</body>
 <!-- jQuery -->
 <script src="{{ asset('js/app.js') }}"></script>
 <!-- Bootstrap 4 -->
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- AdminLTE App -->
 <script src="dist/js/adminlte.min.js"></script>
-<script src="js/script.js"></script>
-</body>
 </html>
